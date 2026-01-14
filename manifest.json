@@ -3,7 +3,7 @@
 	"name": "Delete Checked Items",
 	"version": "1.0.0",
 	"minAppVersion": "0.15.0",
-	"description": "Allows easy deletion of completed checklist items.",
+	"description": "Enables easy deletion of completed checklist items.",
 	"author": "Wanja Leuthold",
 	"authorUrl": "https://github.com/Wanja-L",
 	"fundingUrl": "",
