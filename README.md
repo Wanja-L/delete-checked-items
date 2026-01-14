@@ -6,3 +6,6 @@ Works on desktop as well as mobile.
 
 ### Example Usage
 
+| file menu                                      | command                                    |
+| ---------------------------------------------- | ------------------------------------------ |
+| ![file menu usage](assets/file_menu_usage.gif) | ![command usage](assets/command_usage.gif) |
