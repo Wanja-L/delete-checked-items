@@ -4,7 +4,7 @@ import { Editor, MarkdownView, Plugin } from 'obsidian';
 
 export default class DeleteCheckedItems extends Plugin {
 
-	async onload() {
+	onload() {
 		// This adds an editor command that can perform some operation on the current editor instance
 		this.addCommand({
 			id: 'run',
@@ -24,7 +24,7 @@ export default class DeleteCheckedItems extends Plugin {
 						item
 							.setTitle('Delete checked items')
 							.setIcon('square-x')
-							.onClick(async () => {
+							.onClick(() => {
 								this.deleteCheckedItems(activeMDView.editor)
 							});
 					});
